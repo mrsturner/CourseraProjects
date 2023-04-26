@@ -1,0 +1,121 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+    font-size: 1.3rem;
+    background: rgb(233, 245, 244);
+}
+ .container{
+ width: 97%;
+ margin: 0 auto;
+ padding: 2em;
+ }
+
+header > img{
+    display:block;
+    width: 33%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.25em;
+
+}
+
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    border: 2px solid rgb(38,135,127);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(181,52,52);
+    font-size: larger;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+a:hover{
+    background:rgb(38,135,127) ;
+}
+
+section{
+    display: flex;
+   
+}
+
+h1{
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(230,199,161);
+    font-size: 4rem;
+}
+
+.blink_bg{
+    background: rgb(243, 158, 55);
+    animation: blinkingBackground 2s infinite;
+}
+@keyframes blinkingBackground{
+0% { background:rgb(230,199,161);}
+50% {background: rgb(243, 158, 55);}
+100%{background:rgb(230,199,161);}
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
+
+.announcement{
+    font-size: 1.15em;
+   color: rgb(145,143,125);
+}
+
+.cards{
+    background:  rgb(215, 242, 240);
+}
+
+.card{
+    margin-left: 33px;
+    color: rgb(142,136,128);
+}
+
+section article > img{
+    width:45%;
+    height: 50%;
+   margin-left:6rem;
+   padding-top: 4rem;
+}
+
+article{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    padding-top: 2rem;
+}
+
+footer div >img{
+    width: 23%;
+    height: 42%;
+}
+
+footer div{
+    flex: 1;
+    padding-left: 2rem;
+   
+}
+
